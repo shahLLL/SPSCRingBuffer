@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(spsc-ring-buffer LANGUAGES CXX)
+project(SPSCRingBuffer LANGUAGES CXX)
 
 # Set Build Type to Release
 if(NOT CMAKE_BUILD_TYPE)
@@ -41,7 +41,4 @@ if(NOT MSVC)
     target_compile_options(bench-debug PRIVATE -fsanitize=thread -g -O1)
     target_link_options(bench-debug PRIVATE -fsanitize=thread)
 endif()
-
-
-
 

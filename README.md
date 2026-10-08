@@ -1,4 +1,4 @@
-# ⚪️ SPSC-Ringbuffer
+# ⚪️ SPSCRingBuffer
 
 <div align="center">
   <img src="images/background.jpg" alt="Background" width="75%"/>
